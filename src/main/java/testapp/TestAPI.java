@@ -27,13 +27,13 @@ public class TestAPI {
         }
     }
     
-    @RequestMapping(value="test2",
+    @RequestMapping(value="hello",
             method= RequestMethod.GET,
             produces="application/json")
     @ResponseBody
-    String test2(){
-             System.out.println("logging out");
-            return "new version - cloud build";
+    String hello(){
+            System.out.println("hello endpoint called");
+            return "hello";
 
     }
     
