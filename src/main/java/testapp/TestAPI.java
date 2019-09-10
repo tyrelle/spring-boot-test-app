@@ -33,7 +33,7 @@ public class TestAPI {
     @ResponseBody
     String hello(){
             System.out.println("hello endpoint called");
-            return "hello";
+            return "hello v2";
 
     }
     
